@@ -7,12 +7,11 @@ import codecs
 
 import yaml
 
-PY2 = sys.version_info[0] == 2
+PY2 = sys.version_info[0]
 
 def extension(filename):
     _, ext = os.path.splitext(filename)
     return ext
-
 
 def is_string(variable):
     if PY2:
