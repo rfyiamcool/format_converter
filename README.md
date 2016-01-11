@@ -7,6 +7,12 @@
 pip install format_converter
 ```
 
+```
+git clone https://github.com/rfyiamcool/format_converter.git
+cd format_converter
+python setup.py install
+```
+
 ##使用说明:
 ```python
 from format_converter import converter
